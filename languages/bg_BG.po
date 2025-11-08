@@ -1,0 +1,120 @@
+# Bulgarian translation for Kulinarna Magia theme.
+# Copyright (C) 2025 Kulinarna Magia
+# This file is distributed under the same license as the Kulinarna Magia theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kulinarna Magia 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/kulinarna-magia\n"
+"POT-Creation-Date: 2025-01-08 20:50+0000\n"
+"PO-Revision-Date: 2025-01-08 20:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Manual\n"
+"X-Domain: kulinarna-magia\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: functions.php:28
+msgid "Primary Menu"
+msgstr "Главно меню"
+
+#: functions.php:29
+msgid "Footer Menu"
+msgstr "Меню във футъра"
+
+#: functions.php:83
+msgid "Footer Widget Area 1"
+msgstr "Футър уиджет зона 1"
+
+#: functions.php:85
+msgid "Appears in the footer section"
+msgstr "Показва се във футъра"
+
+#: functions.php:95
+msgid "Footer Widget Area 2"
+msgstr "Футър уиджет зона 2"
+
+#: functions.php:107
+msgid "Footer Widget Area 3"
+msgstr "Футър уиджет зона 3"
+
+#: header.php:39
+msgid "Menu"
+msgstr "Меню"
+
+#: footer.php:26
+msgid "All rights reserved."
+msgstr "Всички права запазени."
+
+#: index.php:15
+msgid "✨ Culinary Magic ✨"
+msgstr "✨ Кулинарна Магия ✨"
+
+#: index.php:16
+msgid "Where delicious wonders happen"
+msgstr "Мястото, където се случват вкусни чудеса"
+
+#: index.php:18
+msgid "🍳 Browse Recipes"
+msgstr "🍳 Разгледай рецепти"
+
+#: index.php:26
+msgid "🌟 Featured Recipes"
+msgstr "🌟 Препоръчани рецепти"
+
+#: index.php:68
+msgid "min"
+msgstr "мин"
+
+#: index.php:72
+msgid "servings"
+msgstr "порции"
+
+#: index.php:89
+msgid "Tested Recipes"
+msgstr "Проверени рецепти"
+
+#: index.php:90
+msgid "Every recipe is tested and approved with love and care."
+msgstr "Всяка рецепта е тествана и одобрена с любов и грижа."
+
+#: index.php:95
+msgid "For Every Taste"
+msgstr "За всеки вкус"
+
+#: index.php:96
+msgid "From classics to modern interpretations - for beginners and experts."
+msgstr "От класики до модерни интерпретации - за начинаещи и опитни."
+
+#: index.php:101
+msgid "With Passion"
+msgstr "Със страст"
+
+#: index.php:102
+msgid "Cooking is magic when done with love and inspiration."
+msgstr "Готвенето е магия, когато се прави с любов и вдъхновение."
+
+#: index.php:119
+msgid "No posts found."
+msgstr "Няма намерени публикации."
+
+#: page.php:28
+#: template-parts/content.php:36
+msgid "Pages:"
+msgstr "Страници:"
+
+#: single.php:19
+msgid "Previous:"
+msgstr "Предишна:"
+
+#: single.php:20
+msgid "Next:"
+msgstr "Следваща:"
+
+#: template-parts/content.php:48
+#. translators: %s: post author
+msgid "by %s"
+msgstr "от %s"

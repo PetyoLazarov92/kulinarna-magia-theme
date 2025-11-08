@@ -1,0 +1,117 @@
+# Copyright (C) 2025 Kulinarna Magia
+# This file is distributed under the same license as the Kulinarna Magia theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kulinarna Magia 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/kulinarna-magia\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WordPress\n"
+"X-Domain: kulinarna-magia\n"
+
+#: functions.php:28
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:29
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:83
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: functions.php:85
+msgid "Appears in the footer section"
+msgstr ""
+
+#: functions.php:95
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: functions.php:107
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: header.php:39
+msgid "Menu"
+msgstr ""
+
+#: footer.php:26
+msgid "All rights reserved."
+msgstr ""
+
+#: index.php:15
+msgid "✨ Culinary Magic ✨"
+msgstr ""
+
+#: index.php:16
+msgid "Where delicious wonders happen"
+msgstr ""
+
+#: index.php:18
+msgid "🍳 Browse Recipes"
+msgstr ""
+
+#: index.php:26
+msgid "🌟 Featured Recipes"
+msgstr ""
+
+#: index.php:68
+msgid "min"
+msgstr ""
+
+#: index.php:72
+msgid "servings"
+msgstr ""
+
+#: index.php:89
+msgid "Tested Recipes"
+msgstr ""
+
+#: index.php:90
+msgid "Every recipe is tested and approved with love and care."
+msgstr ""
+
+#: index.php:95
+msgid "For Every Taste"
+msgstr ""
+
+#: index.php:96
+msgid "From classics to modern interpretations - for beginners and experts."
+msgstr ""
+
+#: index.php:101
+msgid "With Passion"
+msgstr ""
+
+#: index.php:102
+msgid "Cooking is magic when done with love and inspiration."
+msgstr ""
+
+#: index.php:119
+msgid "No posts found."
+msgstr ""
+
+#: page.php:28
+#: template-parts/content.php:36
+msgid "Pages:"
+msgstr ""
+
+#: single.php:19
+msgid "Previous:"
+msgstr ""
+
+#: single.php:20
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content.php:48
+#. translators: %s: post author
+msgid "by %s"
+msgstr ""
