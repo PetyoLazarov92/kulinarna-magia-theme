@@ -15,7 +15,22 @@
         <div class="header-container">
             <div class="site-branding">
                 <?php if ( has_custom_logo() ) : ?>
-                    <?php the_custom_logo(); ?>
+                    <div class="custom-logo-link">
+                        <?php the_custom_logo(); ?>
+                    </div>
+                <?php else : ?>
+                    <div class="site-logo-fallback">
+                        <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="25" cy="25" r="24" fill="url(#logoGradient)"/>
+                            <text x="25" y="35" font-size="30" fill="white" text-anchor="middle" font-weight="bold">✨</text>
+                        </svg>
+                    </div>
                 <?php endif; ?>
                 
                 <div class="site-branding-text">
