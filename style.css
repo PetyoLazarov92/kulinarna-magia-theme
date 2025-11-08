@@ -702,6 +702,11 @@ a:hover {
    RESPONSIVE
    ============================================ */
 @media (max-width: 768px) {
+    .site-content {
+        margin: 1.5rem auto;
+        padding: 0 1rem;
+    }
+    
     .hero-title {
         font-size: 2rem;
     }
@@ -714,8 +719,73 @@ a:hover {
         grid-template-columns: 1fr;
     }
     
+    .page-header {
+        padding: 1.5rem 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .page-title {
+        font-size: 1.75rem;
+    }
+    
     .page-content {
-        padding: 2rem 1.5rem;
+        padding: 1rem;
+    }
+    
+    .page-content h2 {
+        font-size: 1.5rem;
+        margin: 1.5rem 0 0.75rem;
+    }
+    
+    .page-content h3 {
+        font-size: 1.25rem;
+        margin: 1.25rem 0 0.75rem;
+    }
+    
+    .page-content p {
+        margin-bottom: 1rem;
+    }
+    
+    .page-content ul,
+    .page-content ol {
+        margin: 0.75rem 0 0.75rem 1.5rem;
+    }
+    
+    .page-content li {
+        margin-bottom: 0.375rem;
+    }
+    
+    .info-boxes {
+        gap: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .info-box {
+        padding: 1.5rem;
+    }
+    
+    .info-box-icon {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .info-box-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .site-footer {
+        padding: 2rem 0 1rem;
+        margin-top: 2rem;
+    }
+    
+    .footer-container {
+        padding: 0 1rem;
+    }
+    
+    .footer-widgets {
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 }
 
