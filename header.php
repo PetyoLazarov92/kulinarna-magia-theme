@@ -49,7 +49,7 @@
             </div>
 
             <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-                ☰ <?php esc_html_e( 'Menu', 'kulinarna-magia' ); ?>
+                ☰ <span class="screen-reader-text"><?php esc_html_e( 'Menu', 'kulinarna-magia' ); ?></span>
             </button>
 
             <nav class="main-navigation">
