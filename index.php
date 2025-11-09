@@ -94,7 +94,14 @@ get_header();
                                     
                                     <?php if ( $difficulty ) : ?>
                                         <span class="difficulty-badge difficulty-<?php echo esc_attr( $difficulty ); ?>">
-                                            <?php echo esc_html( ucfirst( $difficulty ) ); ?>
+                                            <?php
+                                            $difficulty_labels = array(
+                                                'easy'   => __( 'Easy', 'pl-recipe-cookbook' ),
+                                                'medium' => __( 'Medium', 'pl-recipe-cookbook' ),
+                                                'hard'   => __( 'Hard', 'pl-recipe-cookbook' ),
+                                            );
+                                            echo esc_html( isset( $difficulty_labels[ $difficulty ] ) ? $difficulty_labels[ $difficulty ] : ucfirst( $difficulty ) );
+                                            ?>
                                         </span>
                                     <?php endif; ?>
                                 </div>
