@@ -126,7 +126,17 @@ a:hover {
 .site-branding {
     display: flex;
     align-items: center;
+}
+
+.site-branding-link {
+    display: flex;
+    align-items: center;
     gap: 0.75rem;
+    text-decoration: none;
+}
+
+.site-branding-link:hover {
+    opacity: 0.9;
 }
 
 .custom-logo-link {
@@ -168,18 +178,6 @@ a:hover {
     font-weight: 700;
     color: white;
     line-height: 1.2;
-}
-
-.site-title a {
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.site-title a:hover {
-    opacity: 0.9;
 }
 
 .site-description {
@@ -410,6 +408,7 @@ a:hover {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2rem;
+    margin-top: 3rem;
     text-align: center;
     color: var(--text-primary);
     position: relative;
@@ -741,16 +740,66 @@ a:hover {
         padding: 0 1rem;
     }
     
+    .hero-section {
+        padding: 2.5rem 1.5rem;
+    }
+    
+    .hero-section::before {
+        font-size: 4rem;
+        top: -1rem;
+    }
+    
+    .hero-section::after {
+        font-size: 3rem;
+        bottom: -0.5rem;
+    }
+    
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        margin-bottom: 0.75rem;
     }
     
     .hero-subtitle {
-        font-size: 1.125rem;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .hero-cta {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .section-title::after {
+        width: 60px;
+        height: 3px;
+    }
+    
+    .featured-recipes {
+        margin-bottom: 2.5rem;
     }
     
     .recipes-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .recipe-card-content {
+        padding: 1.25rem;
+    }
+    
+    .recipe-card-title {
+        font-size: 1.125rem;
+    }
+    
+    .recipe-card-image,
+    .recipe-default-image {
+        height: 180px;
     }
     
     .page-header {
