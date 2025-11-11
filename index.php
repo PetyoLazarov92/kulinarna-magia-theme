@@ -83,9 +83,10 @@ get_header();
                                     $servings   = get_post_meta( get_the_ID(), '_pl_recipe_servings', true );
                                     $difficulty = get_post_meta( get_the_ID(), '_pl_recipe_difficulty', true );
                                     
-                                    if ( $prep_time ) :
+                                    if ( $prep_time || $cook_time ) :
+                                        $total_time = ( $prep_time ? intval( $prep_time ) : 0 ) + ( $cook_time ? intval( $cook_time ) : 0 );
                                         ?>
-                                        <span class="meta-item">⏱️ <?php echo esc_html( $prep_time ); ?> <?php esc_html_e( 'min', 'kulinarna-magia' ); ?></span>
+                                        <span class="meta-item">⏱️ <?php echo esc_html( $total_time ); ?> <?php esc_html_e( 'min', 'kulinarna-magia' ); ?></span>
                                     <?php endif; ?>
                                     
                                     <?php if ( $servings ) : ?>
