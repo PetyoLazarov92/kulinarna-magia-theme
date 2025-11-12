@@ -14,8 +14,8 @@ get_header();
         <div class="hero-container">
             <h2 class="hero-title"><?php esc_html_e( '✨ Culinary Magic ✨', 'kulinarna-magia' ); ?></h2>
             <p class="hero-subtitle"><?php esc_html_e( 'Where delicious wonders happen', 'kulinarna-magia' ); ?></p>
-            <a href="<?php echo esc_url( get_post_type_archive_link( 'pl_recipe' ) ); ?>" class="hero-cta">
-                <?php esc_html_e( '🍳 Browse Recipes', 'kulinarna-magia' ); ?>
+            <a href="<?php echo esc_url( home_url( '/recipe-search/' ) ); ?>" class="hero-cta hero-cta-primary">
+                <?php esc_html_e( '🔍 What Should I Cook?', 'kulinarna-magia' ); ?>
             </a>
         </div>
     </section>
@@ -113,6 +113,13 @@ get_header();
                     wp_reset_postdata();
                 endif;
                 ?>
+            </div>
+            
+            <div class="recipes-archive-cta">
+                <a href="<?php echo esc_url( get_post_type_archive_link( 'pl_recipe' ) ); ?>" class="btn-view-all-recipes">
+                    <?php esc_html_e( '📚 View All Recipes', 'kulinarna-magia' ); ?>
+                    <span class="btn-arrow">→</span>
+                </a>
             </div>
         </section>
 
